@@ -1,4 +1,5 @@
-const Alumn = require('../models/alumn.js');
+const { response } = require('express');
+const Alumn = require('../models/Alumn');
 
   const defaultValues = {
     imageName: "no image",
@@ -31,7 +32,7 @@ module.exports = class CreateAlumnController{
     return res.json(alumn);
 
   } catch(err){
-    return res.json(err);
+    return res.json(alumn);
 
    }
   }
