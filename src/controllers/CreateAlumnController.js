@@ -1,5 +1,4 @@
-const { response } = require('express');
-const Alumn = require('../models/Alumn');
+const Alumn = require('../models/alumn');
 
   const defaultValues = {
     imageName: "no image",

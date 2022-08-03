@@ -1,4 +1,4 @@
-const Alumn = require('../models/Alumn');
+const Alumn = require('../models/alumn');
 
 module.exports = class DeleteAlumnController{
   async handle(req, res) {

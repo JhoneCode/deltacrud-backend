@@ -1,4 +1,4 @@
-const Alumn = require('../models/Alumn');
+const Alumn = require('../models/alumn');
 const aws = require("aws-sdk");
 
 

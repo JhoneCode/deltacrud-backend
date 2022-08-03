@@ -69,4 +69,4 @@ AlumnSchema.pre("remove", async function() {
 
 
 
-module.exports = mongoose.model("Alumn", AlumnSchema);
+module.exports = mongoose.model("alumns", AlumnSchema);
