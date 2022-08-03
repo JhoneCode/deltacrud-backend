@@ -14,11 +14,6 @@ const app = express();
 mongoose.connect(
   process.env.MONGO_URL,
   {
-    reconnectTries: 30,
-    reconnectInterval: 500,
-    poolSize: 1,
-    socketTimeoutMS: 2000000,
-    keepAlive: true,
     useNewUrlParser: true
   }
 );
