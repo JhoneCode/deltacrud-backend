@@ -29,6 +29,4 @@ app.use(
 
 app.use(require("./routes"));
 
-app.listen(process.env.PORT || 3333, () => {
-  console.log('HTTP server running!')
-});
+app.listen(process.env.PORT || 3000);
