@@ -46,7 +46,7 @@ module.exports = {
     const allowedMimes = [
       "image/jpeg",
       "image/jpg",
-      "image/pjpeg",
+      "image/jpeg",
       "image/png",
       "image/gif",
       "image/png"
